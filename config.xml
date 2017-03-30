@@ -52,17 +52,7 @@
     <splash src="res/screen/android/homecare_logo.png" density="port-mdpi"/>
     <splash src="res/screen/android/homecare_logo.png" density="port-xhdpi"/>
   </platform>
-   <gap:plugin name="org.apache.cordova.core.camera" />
-  <gap:plugin name="cordova.plugins.diagnostic" source="plugins.cordova.io" />
-<gap:plugin name="org.apache.cordova.core.geolocation" />
-<gap:plugin name="org.apache.cordova.core.dialogs" />
-<gap:plugin name="org.apache.cordova.device" />
-<gap:plugin name="org.apache.cordova.device-motion" />
-<gap:plugin name="org.apache.cordova.device-orientation" />
-<gap:plugin name="org.apache.cordova.network-information" />
-<gap:plugin name="org.apache.cordova.dialogs" />
-<gap:plugin name="org.apache.cordova.splashscreen" />
-    <feature name="App">
+       <feature name="App">
       <param name="android-package" value="org.apache.cordova.App"/>
     </feature>
     <feature name="Geolocation">
