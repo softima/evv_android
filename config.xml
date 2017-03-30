@@ -47,6 +47,12 @@
 	  <gap:platform name="ios" />
       	<gap:platform name="android" />
       	<gap:platform name="winphone" />
+	      <plugin name="cordova-plugin-geolocation"    source="npm" spec="1.0.1" />
+    <plugin name="cordova-plugin-inappbrowser"   source="npm" spec="1.0.1" />
+    <plugin name="cordova-plugin-network-information" source="npm" spec="1.0.1" />
+    <plugin name="cordova-plugin-splashscreen"   source="npm" spec="2.1.0" />
+    <plugin name="cordova-plugin-statusbar"      source="npm" spec="1.0.0" />
+
     <splash src="res/screen/android/homecare_logo.png" density="port-hdpi"/>
     <splash src="res/screen/android/homecare_logo.png" density="port-ldpi"/>
     <splash src="res/screen/android/homecare_logo.png" density="port-mdpi"/>
